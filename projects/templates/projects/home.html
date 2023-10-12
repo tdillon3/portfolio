@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Tanner Dilon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #50b3a2;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section.content {
+            width: 80%;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <header>
+        <h1>Tanner Dillon</h1>
+        <p> 
+            Innovative Software Engineer with a passion for problem-solving and continuous learning.
+        </p>
+        <nav>
+            <a href="{% url 'home' %}">Home</a> | <a href="{% url 'resume' %}">Resume</a>
+        </nav>
+    </header>
+    
+    <section class="content">
+        <h2>About Me</h2>
+        <p>
+            Growing up there was always that intense desire to know how things worked and how things were put together. As a child, it was with tinker toys and Lincoln logs and now it is with computer parts and programming. It always starts small with a simple question like, “How does that work?” or “How can this be fixed?” 
+            Finding my career path while attending Brigham Young University of Idaho was one of the great self-discoveries to date. Knowing that getting down to the root of the problem and then designing a solution for it was what I was made for excites me every day. Utilizing the power of analysis and organization, anything can be made or fixed with Software Design and Engineering. With experience in Law Enforcement, attention to detail only enhances these abilities.
+            You will find me constantly diving into new concepts and problems to find a solution through software. The future of technology is always evolving, and I'm excited to be part of it. Learning and growing with technology is essential. There is always a way, the goal always exists, finding the way and getting to your goal is the fun part.
+        </p>
+    
+        <h2>Skills</h2>
+        <ul>
+            <li>Python and Django Development</li>
+            <li>Full Stack Web Development</li>
+            <li>Database Design and Management</li>
+            <li>Problem-solving and Critical Thinking</li>
+            <li>Attention to Detail from Law Enforcement Experience</li>
+        </ul>
+    
+        <h2>Projects</h2>
+        <h3>Django Portfolio</h3>
+        <p>
+            Developed a personalized portfolio website using Django. This project not only showcases my proficiency in Django but also reflects my understanding of frontend technologies and design principles. Faced challenges in responsive design and efficient database queries, but successfully overcame them, enhancing the user experience and site performance.
+        </p>
+        <a href="Paste project link here">Link to Django Portfolio on GitHub</a>
+    
+        <!-- Example of another project -->
+        <h3>Machine Learning Predictive Tool</h3>
+        <p>
+            Built a machine learning tool using Python that predicts future market trends based on historical data. The project involved preprocessing large datasets, feature engineering, and training multiple regression models. Achieved an accuracy of over 90% in predictions, helping businesses make informed decisions.
+        </p>
+        <a href="Paste project link here">Link to ML Predictive Tool on GitHub</a>
+    
+        <!-- Continue adding projects as needed -->
+    </section>
+
+        <h2>Contact</h2>
+        <p>
+            Interested in working with me? Reach out!
+        </p>
+        <p>Email: tanner.dillon969@gmail.com</p>
+        <p>Phone: 208-969-0333</p>
+    </section>
+
+</body>
+</html>
