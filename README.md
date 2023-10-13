@@ -9,7 +9,7 @@ This web application acts as a digital representation of my professional journey
 
 The primary purpose of this software is to offer potential employers and other stakeholders a glimpse into my capabilities as a software engineer, illustrating both my technical prowess and my ability to design user-centric applications.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.loom.com/share/5f63430c885c4088bf6d34b449e0da00?sid=f1bcc160-072d-4d45-9301-bdcfb351b0d9)
 
 # Web Pages
 
